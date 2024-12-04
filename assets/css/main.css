@@ -1013,7 +1013,7 @@ section,
 }
 
 .services .service-item .icon i {
-  color: var(--heading-color);
+  color: #232d26;
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
