@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Plengi</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Plengi</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#pricing">Tarifas</a></li>
+          <li><a href="#contact">Contactanos</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span>Plengi</span></h2>
+            <p class="animate__animated animate__fadeInUp">Plengi es un software diseñado para facilitar la creación de
+              presupuestos de obra más eficiente y sencillo.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Más información</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Presupuestos más rápidos y precisos</h2>
+            <p class="animate__animated animate__fadeInUp">Con Plengi, puedes crear presupuestos detallados de manera
+              rápida y precisa. Nuestro software te permite gestionar fácilmente materiales, equipos, mano de Obra
+               adaptándose a tus necesidades específicas.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Descubre más</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Escalable y flexible</h2>
+            <p class="animate__animated animate__fadeInUp">Plengi es un software escalable y con propiedades
+              horizontales, ideal para proyectos de cualquier tamaño. Desde pequeñas obras hasta grandes desarrollos,
+              nuestro software se adapta a tus necesidades de planificación.</p>
+            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Comienza ahora</a>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Acerca de</h2>
+        <p>¿Quiénes somos?</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              En <strong>Plengi</strong>, revolucionamos la forma en que se realizan presupuestos de obra. Nuestro
+              software es una solución diseñada para optimizar la planificación de proyectos de construcción, brindando
+              una herramienta adaptable, eficiente y preparada para el futuro.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Permite crear presupuestos precisos para todo tipo de obras,
+                  desde pequeñas construcciones hasta grandes proyectos.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Diseñado para ser escalable, adaptándose a las necesidades
+                  cambiantes del usuario.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Proyección a futuro: integración de inteligencia artificial
+                  para agilizar y automatizar procesos.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              Nuestro objetivo es transformar la planificación y gestión de obras, simplificando tareas complejas y
+              reduciendo tiempos de ejecución. Con <strong>Plengi</strong>, los profesionales de la construcción pueden
+              concentrarse en lo que importa: construir su visión.
+            </p>
+            <a href="#" class="read-more"><span>Descubre más</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background" style="padding: 40px;">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Empieza a planificar con Plengi</h3>
+            <p>Optimiza tus proyectos de construcción con presupuestos rápidos, precisos y escalables. Únete a la
+              revolución en planeación e ingeniería y lleva tu productividad al siguiente nivel.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#about">Inicia ahora</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Servicios</h2>
+        <p>¿Qué ofrecemos?</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <!-- Módulos de Equipos -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <h3>Módulos de Equipos</h3>
+              <p style="text-align: justify;">Administra equipos necesarios para tus proyectos con herramientas
+                diseñadas para maximizar la
+                eficiencia.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Mano de Obra y Transporte -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-truck"></i>
+              </div>
+              <h3>Mano de Obra y Transporte</h3>
+              <p style="text-align: justify;">Incluye y gestiona los costos de mano de obra y transporte en tus
+                presupuestos con precisión.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Materiales -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-cubes"></i>
+              </div>
+              <h3>Materiales</h3>
+              <p style="text-align: justify;">Accede a un inventario completo de materiales con precios actualizados
+                para facilitar tus cálculos.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- APU y APG -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-calculator"></i>
+              </div>
+              <h3>APU y APG</h3>
+              <p style="text-align: justify;">Realiza análisis de precios unitarios (APU) y globales (APG) con
+                plantillas profesionales y
+                automatización.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Módulos Individuales -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-user-cog"></i>
+              </div>
+              <h3>Módulos Individuales</h3>
+              <p style="text-align: justify;">Crea presupuestos personalizados para cada usuario con opciones para
+                editar o empezar desde cero.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- Soporte 24/7 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <h3>Soporte 24/7</h3>
+              <p style="text-align: justify;">Disfruta de un servicio personalizado y soporte técnico en cualquier
+                momento con nuestro plan premium.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Planes y Precios</h2>
+        <p>Elige el plan que mejor se adapte a tus necesidades</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-3">
+
+          <!-- Plan Gratis -->
+          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Gratis</h3>
+              <h4><sup>$</sup>0<span> / mes</span></h4>
+              <ul>
+                <li>Acceso limitado a módulos básicos</li>
+                <li>Presupuestos editables</li>
+                <li>Soporte técnico estándar</li>
+                <li class="na">Análisis de Precios Unitarios (APU)</li>
+                <li class="na">Soporte 24/7</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Empieza Gratis</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <!-- Plan Profesional -->
+          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Profesional</h3>
+              <h4><sup>$</sup>75,000<span> / mes</span></h4>
+              <ul>
+                <li>Acceso completo a todos los módulos</li>
+                <li>Creación y edición de presupuestos avanzados</li>
+                <li>Análisis de Precios Unitarios (APU)</li>
+                <li>Soporte técnico prioritario</li>
+                <li class="na">Soporte 24/7</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Adquiere Ahora</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <!-- Plan Premium -->
+          <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="pricing-item">
+              <span class="advanced">Más popular</span>
+              <h3>Premium</h3>
+              <h4><sup>$</sup>150,000<span> / mes</span></h4>
+              <ul>
+                <li>Acceso total a módulos y herramientas personalizadas</li>
+                <li>Análisis de Precios Globales (APG)</li>
+                <li>Soporte técnico 24/7</li>
+                <li>Plantillas listas para usar</li>
+                <li>Actualizaciones automáticas</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Suscríbete</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Dirección</h3>
+                <p>Popayán - Cauca</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Llámanos</h3>
+                <p>+57 3213796235</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Envíanos un correo</h3>
+                <p>plengi545@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Tu nombre" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Tu correo" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Asunto" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Cargando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+
+                  <button type="submit">Enviar Mensaje</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Plengi - Planeación e Ingeniería</h3>
+      <p>Con Plengi, cada paso hacia el futuro es una oportunidad para transformar sueños en realidades.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Plengi</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Diseñado por <a href="https://bootstrapmade.com/">Plengi technology </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
